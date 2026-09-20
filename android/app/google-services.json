@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "70429835980",
+    "project_id": "comity-6f90f",
+    "storage_bucket": "comity-6f90f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70429835980:android:4f7cc59a8c9216faccb869",
+        "android_client_info": {
+          "package_name": "com.comity.comity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb7f3cCbr2irJv1h-Ih_8BfhphR7IF2bw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
