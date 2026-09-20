@@ -30,11 +30,19 @@ android {
         versionName = flutter.versionName
     }
 
+    signingConfigs {
+        create("comityRelease") {
+            storeFile = file("comity.keystore")
+            storePassword = "android"
+            keyAlias = "comity"
+            keyPassword = "android"
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            // Signed with the persistent comity.keystore (testing key).
+            signingConfig = signingConfigs.getByName("comityRelease")
         }
     }
 }
